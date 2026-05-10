@@ -1,11 +1,11 @@
 # Edu-DETR
 
- **Edu-DETR: A Spectral-Spatial Collaborative Network for Efficient Teacher Behavior Analysis in Crowded Classrooms**.
+**Edu-DETR: A Spectral-Spatial Collaborative Network for Efficient Teacher Behavior Analysis in Crowded Classrooms**.
 
 ## Status
 
 Our manuscript is currently **under review**.  
-The code, pretrained models, dataset-related resources, and usage instructions are being organized and will be released after the review process is completed.
+The code, pretrained models, and usage instructions are being organized and will be released after the review process is completed.
 
 ## Overview
 
@@ -30,6 +30,8 @@ The framework integrates:
 
 We construct **TCB-Det**, a domain-specific benchmark for fine-grained teacher behavior detection in classroom scenes.
 
+TCB-Det is used only for academic evaluation in this study. Due to privacy and ethical considerations related to classroom videos and the presence of minors, the dataset will **not be publicly released**.
+
 The dataset contains annotated images covering five core categories of teacher behaviors:
 
 - Lecturing
@@ -38,9 +40,7 @@ The dataset contains annotated images covering five core categories of teacher b
 - Demonstrating
 - Individual Guidance
 
-The dataset is designed to reflect realistic classroom challenges, including crowd occlusion, complex backgrounds, and visually similar instructional behaviors.
-
-Dataset access and preparation instructions will be provided after the review process is completed.
+Although the dataset cannot be shared publicly, the repository will provide implementation details, model configurations, and evaluation protocols to support reproducibility to the extent permitted by privacy constraints.
 
 ## Repository Plan
 
@@ -48,11 +48,10 @@ This repository will include:
 
 - training and inference code
 - model configuration files
-- data preparation scripts
 - evaluation scripts
-- pretrained model weights
+- pretrained model weights, if permitted by the review and privacy requirements
 - visualization tools
-- usage instructions for reproducing the reported results
+- usage instructions for reproducing the model architecture and evaluation pipeline
 
 ## Citation
 
