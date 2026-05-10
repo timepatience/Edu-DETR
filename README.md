@@ -1,8 +1,6 @@
 # Edu-DETR
 
-Official repository for **Edu-DETR: A Spectral-Spatial Collaborative Network for Efficient Teacher Behavior Analysis in Crowded Classrooms**.
-
-**GitHub:** https://github.com/xxxx/Edu-DETR
+ **Edu-DETR: A Spectral-Spatial Collaborative Network for Efficient Teacher Behavior Analysis in Crowded Classrooms**.
 
 ## Status
 
