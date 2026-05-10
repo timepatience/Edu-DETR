@@ -17,14 +17,14 @@ It addresses key challenges in fine-grained teacher behavior analysis, including
 - dense crowd occlusion caused by seated students,
 - high-frequency visual interference from repetitive classroom structures,
 - semantic ambiguity among visually similar pedagogical actions,
-- real-time deployment requirements on resource-constrained edge devices.
+- the need for efficient and practical teacher behavior analysis in complex classroom videos.
 
 The framework integrates:
 
 - a Gated Sparse Hybrid Backbone (GSH-Net) for filtering static background redundancy and reducing unnecessary computation,
-- a Spectral-Spatial Polarized Encoder (S²P²-Encoder) for suppressing periodic crowd-related interference while enhancing subtle teacher motion cues,
+- a Spectral-Spatial Polarized Encoder (S2P2-Encoder) for suppressing periodic crowd-related interference while enhancing subtle teacher motion cues,
 - a Decay-Aware Retention Strategy for distinguishing spatially similar instructional behaviors through multi-scale spatial inductive biases,
-- a lightweight feature fusion design that improves behavioral discrimination without increasing inference latency.
+- a lightweight feature fusion design that improves behavioral discrimination while maintaining computational efficiency.
 
 ## Dataset
 
